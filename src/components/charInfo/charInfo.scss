@@ -1,0 +1,48 @@
+.char {
+    &__info {
+        width: 100%;
+        min-height: 500px;
+        // background-color: #9ECCE4;
+        background-color: #B0C4DE;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        padding: 15px;
+        position: sticky;
+        top: 50px;
+    }
+
+    &__img {
+        width: 100%;
+        height: 340px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: unset;
+            border-radius: 8px;
+        }
+    }
+
+    &__info-name {
+        margin-top: 10px;
+        color: #000;
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    &__table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+        tbody, tr, td {
+            border: 1px solid;
+        }
+        td {
+            text-align: center;
+        }
+    }
+
+    &__select {
+        text-align: center;
+    }
+}

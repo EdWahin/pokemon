@@ -1,0 +1,129 @@
+@media (max-width: 1200px) {
+    #root .app {
+        width: 960px;
+    }
+
+    .char {
+        &__content {
+            grid-template-columns: 520px 400px;
+            column-gap: 40px;
+        }
+
+        &__grid {
+            grid-template-columns: repeat(2, 250px);
+            column-gap: 20px;
+            row-gap: 20px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    #root .app {
+        width: 720px;
+    }
+
+    .char {
+        &__content {
+            grid-template-columns: 410px 290px;
+            column-gap: 20px;
+        }
+
+        &__grid {
+            grid-template-columns: repeat(2, 200px);
+            column-gap: 10px;
+        }
+
+        &__img {
+            height: 260px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #root .app {
+        width: 540px;
+    }
+
+    .char {
+        &__content {
+            grid-template-columns: 200px 320px;
+            column-gap: 20px;
+        }
+
+        &__grid {
+            grid-template-columns: repeat(1, 200px);
+        }
+
+        &__info {
+            top: 20px;
+        }
+
+        &__img {
+            height: 290px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    #root .app {
+        width: 300px;
+        padding: 20px 0 20px 0;
+    }
+
+    .char {
+        &__content {
+            margin-top: 30px;
+            grid-template-columns: 100px 190px;
+            column-gap: 10px;
+        }
+
+        &__grid {
+            grid-template-columns: repeat(1, 100px);
+        }
+
+        &__item {
+            min-height: 190px;
+            img {
+                height: 80px;
+            }
+        }
+
+        &__name {
+            font-size: 12px;
+        }
+
+        &__type {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        &__info {
+            top: 10px;
+            min-height: 460px;
+            &-name {
+                font-size: 16px;
+            }
+        }
+
+        &__table {
+            height: 220px;
+            td {
+                font-size: 13px;
+            }
+        }
+
+        &__img {
+            height: 160px;
+        }
+
+        &__select {
+            font-size: 12px;
+        }
+    }
+
+    .button {
+        &__inner {
+            font-size: 15px;
+            word-spacing: 1px;
+        }
+    }
+}

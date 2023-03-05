@@ -1,0 +1,31 @@
+.char {
+    &__select {
+        font-weight: 700;
+    }
+}
+
+.skeleton {
+    &__image {
+        width: 60%;
+        height: 150px;
+        margin: 0 auto;
+        align-items: center;
+        background-color: #F0F8FF;
+        margin-top: 20px;
+        border-radius: 8px;
+    }
+    &__name {
+        width: 100%;
+        height: 70px;
+        background-color: #F0F8FF;
+        margin-top: 40px;
+        border-radius: 8px;
+    }
+    &__block {
+        height: 20px;
+        width: 100%;
+        background-color: #F0F8FF;
+        margin-top: 20px;
+        border-radius: 8px;
+    }
+}
